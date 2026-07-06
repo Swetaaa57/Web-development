@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+            <h1>My Portfolio</h1>
+    </header>
+    <main>
+        <section>experiences : C | C++ | HTML </section>
+        <article>my story is : </article>
+        <aside>this is an ad</aside>
+        <a href = "https://www.marvel.com" target="_main">Marvel</a>
+        <a href = "https://www.marvel.com" target="_main"><img src="https://images.seeklogo.com/logo-png/8/1/marvel-comics-logo-png_seeklogo-88891.png" alt = Marvel 
+            height = 300></a>
+        <div>
+            <p>Hello World</p>
+        </div>
+        <span>Hi</span>
+    </main>
+    <footer>
+        <h5>Contact me at hello@ac.com</h5>
+    </footer>
+</body>
+</html>
