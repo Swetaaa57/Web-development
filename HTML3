@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+            <h1>My Portfolio</h1>
+    </header>
+    <main>
+        <section>experiences : C | C++ | HTML </section>
+        <article>my story is : </article>
+        <aside>this is an ad</aside>
+        <a href = "https://www.marvel.com" target="_main">Marvel</a>
+        <a href = "https://www.marvel.com" target="_main"><img src="https://images.seeklogo.com/logo-png/8/1/marvel-comics-logo-png_seeklogo-88891.png" alt = Marvel 
+            height = 300></a>
+        <div>
+            <p>Hello World</p>
+        </div>
+        <span>Hi</span>
+        <ul>
+            <li>Tony Stark</li>
+            <ul>
+                <li>Iron Man</li>
+            </ul>
+            <li>Peter Parker</li>
+            <ul>
+                <li>Spider Man</li>
+            </ul>
+        </ul>
+        <ol>
+            <li>Tony Stark</li>
+            <ol>
+                <li>Iron Man</li>
+            </ol>
+            <li>Peter Parker</li>
+            <ol>
+                <li>Spider Man</li>
+            </ol>
+        </ol>
+    </main>
+
+    <table>
+        <thead>
+        <caption>Avenger</caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Black Widow</td>
+            <td>130</td>
+        </tr>
+        </tbody>
+    </table>
+    <footer>
+        <h5>Contact me at hello@ac.com</h5>
+    </footer>
+</body>
+</html>
