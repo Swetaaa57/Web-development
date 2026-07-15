@@ -1,0 +1,70 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel ="stylesheet" href ="css.css">
+</head>
+<body>
+    <h1>Heading</h1>
+    <h2>Random</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur at sunt alias, quam quos repudiandae ipsa ratione nostrum eligendi inventore sapiente dignissimos illo molestiae natus ullam, rerum earum accusantium.
+    Mollitia, voluptatem libero. Culpa quasi corporis adipisci obcaecati, exercitationem beatae alias quae, odit architecto dolor omnis molestias quos ea quibusdam a eaque modi nobis soluta quod. Excepturi provident dolorem reiciendis.
+    Repudiandae, rem aliquid optio eaque nobis commodi enim eum incidunt ex et sunt. Architecto, harum? Quo quisquam unde minus in consequuntur, nihil similique voluptatem porro atque maiores ducimus iusto sed.
+    Quasi neque deserunt architecto racupiditate veritatis eius perferendis alias asperiores quasi inventore praesentium nisi delectus, aliquid veniam commodi vitae? Suscipit dicta reiciendis voluptatem. Tempore deserunt porro maxime provident.</p>
+
+    <a href="https://in.pinterest.com">Click here!</a>
+
+    <br>
+    <p id="font">
+        Culpa quasi corporis adipisci obcaecati, exercitationem beatae alias quae, odit architecto dolor omnis molestias quos ea quibusdam a eaque modi nobis soluta quod. Excepturi provident dolorem reiciendis.
+    Repudiandae, rem aliquid optio eaque nobis commodi enim eum incidunt ex et sunt. Architecto, harum? Quo quisquam unde minus in consequuntur, nihil similique voluptatem porro atque maiores ducimus iusto sed.
+    Quasi neque deserunt architecto ratione quia sunt quidem dolor quo beatae voluptates. Animi alias distinctio mollitia nihil fugiat, asperiores beatae accusantium. Nulla laudantium eum, cum inventore commodi sapiente voluptates.
+    Est maxime, culpa nihil hic quaerat, cup
+    </p>
+    <h3 id="hd1">Heading1</h3>
+    <h3 id="hd2">Heading1</h3>
+    <h3 id="hd3">Heading1</h3>
+    <h3 id="hd4">Heading1</h3>
+</body>
+</html>
+
+CSS:
+p{
+    text-align:center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+
+    text-align:center;
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+
+#hd1{
+    font-weight: normal;
+}
+#hd2{
+    font-weight: bold;
+}
+#hd3{
+    font-weight: bolder;
+}
+#hd4{
+    font-weight: lighter;
+}
+
+#font{
+    font-family:Arial;
+    font-size:12px;
+    line-height:7px;
+    text-transform:capitalize;
+}
