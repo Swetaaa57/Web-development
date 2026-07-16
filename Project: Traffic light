@@ -1,0 +1,50 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel ="stylesheet" href ="css.css">
+</head>
+<body>
+    <div>
+        <h4 id="red"></h4>
+        <h4 id="yellow"></h4>
+        <h4 id="green"></h4>
+    </div>
+</body>
+</html>
+
+CSS:
+div{
+    height:500px;
+    width:200px;
+    background-color:grey;
+    border-width:5px;
+    border-style: solid;
+    border-color:black;
+    border-radius:10px; /*for circle- 50% */
+}
+
+#red{
+    height:130px;
+    width:130px;
+    background-color:red;
+    border-radius:50%;
+    margin-left:35px;
+}
+#yellow{
+    height:130px;
+    width:130px;
+    background-color:yellow;
+    border-radius:50%;
+    margin-left:35px;
+}
+#green{
+    height:130px;
+    width:130px;
+    background-color:green;
+    border-radius:50%;
+    margin-left:35px;
+}
