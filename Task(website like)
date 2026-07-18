@@ -1,0 +1,71 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel ="stylesheet" href ="css.css">
+</head>
+<body>
+    <header>
+        <div id="amazon">
+        <a id="a1">amazon.in</a>
+        <a href="#" id="a2">Account</a>
+        <a href="#" id="a3">My Cart</a>
+        <a href="#" id="a4">Contact us</a>
+        <input placeholder="search amazon.in">
+        <button>Search</button>
+        </div>
+    </header>
+    <div id="content">
+    <div class="contentBox" style="background-color: rgba(255,0,0,0.5);">pink</div>
+    <div class="contentBox" style="background-color: rgba(0,255,0,0.5);">green</div>
+    <div class="contentBox" style="background-color: rgba(0,0,255,0.5);">purple</div>
+    </div>
+    <footer>Made with &hearts; by Amazon <br>
+            &#169; 1996-2023,Amazon.com, Inc. or its affiliates
+    </footer>
+</body>
+</html>
+
+CSS:
+*{
+    padding:0;
+    margin:0;
+}
+
+#amazon{
+    height:60px;
+    background-color:black;
+}
+#a1{
+    color:#f08804;
+    font-size:25px;
+}
+a{
+    color:white;
+    margin-right:100px;
+}
+button{
+    background-color:#f08804;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin:10px;
+    display:inline-block;
+}
+
+#content{
+    height:550px;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
