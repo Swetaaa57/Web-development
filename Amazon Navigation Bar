@@ -1,0 +1,53 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel ="stylesheet" href ="css.css">
+</head>
+<body>
+    <div>
+        <a id="a1">amazon.in
+            <a href="#" id="a2">Account
+                <a href="#" id="a3">My Cart
+                    <a href="#" id="a4">Contact us
+                        <input placeholder="search amazon.in">
+                        <button>Search</button>
+                    </a>
+                </a>
+            </a>
+        </a>
+    </div>
+</body>
+</html>
+
+CSS:
+div{
+    height:60px;
+    background-color:black;
+}
+#a1{
+    color:#f08804;
+    font-size:25px;
+}
+#a2{
+    color:white;
+}
+#a3{
+    color:white;
+}
+#a4{
+    color:white;
+}
+input{
+    margin-left:100px;
+}
+button{
+    background-color:#f08804;
+}
+
+a{
+    margin-right:100px;
+}
