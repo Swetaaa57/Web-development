@@ -8,22 +8,25 @@ HTML:
     <link rel ="stylesheet" href ="css.css">
 </head>
 <body>
-    <div>
-        <a id="a1">amazon.in
-            <a href="#" id="a2">Account
-                <a href="#" id="a3">My Cart
-                    <a href="#" id="a4">Contact us
-                        <input placeholder="search amazon.in">
-                        <button>Search</button>
-                    </a>
-                </a>
-            </a>
-        </a>
-    </div>
+    <header>
+        <div id="amazon">
+        <a id="a1">amazon.in</a>
+        <a href="#" id="a2">Account</a>
+        <a href="#" id="a3">My Cart</a>
+        <a href="#" id="a4">Contact us</a>
+        <input placeholder="search amazon.in">
+        <button>Search</button>
+        </div>
+    </header>
 </body>
 </html>
 
 CSS:
+*{
+    padding:0;
+    margin:0;
+}
+
 div{
     height:60px;
     background-color:black;
@@ -32,22 +35,10 @@ div{
     color:#f08804;
     font-size:25px;
 }
-#a2{
+a{
     color:white;
-}
-#a3{
-    color:white;
-}
-#a4{
-    color:white;
-}
-input{
-    margin-left:100px;
+    margin-right:100px;
 }
 button{
     background-color:#f08804;
-}
-
-a{
-    margin-right:100px;
 }
