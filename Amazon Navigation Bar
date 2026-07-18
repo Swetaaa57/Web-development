@@ -27,7 +27,7 @@ CSS:
     margin:0;
 }
 
-div{
+#amazon{
     height:60px;
     background-color:black;
 }
