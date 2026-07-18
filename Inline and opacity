@@ -1,0 +1,30 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel ="stylesheet" href ="css.css">
+</head>
+<body>
+    <p>para which is block changes into inline</p>
+    <div style="background-color: rgba(255,0,0,0.5);">box1</div>
+    <div style="background-color: rgba(0,255,0,0.5);">box2</div>
+    <div style="background-color: rgba(0,0,255,0.5);">box3</div>
+</body>
+</html>
+
+CSS:
+p{
+    background-color:rgba(255,255,0,0.5);
+    display:inline;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
